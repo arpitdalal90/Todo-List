@@ -33,7 +33,7 @@ function setUpEventListeners() {
    var task = document.querySelectorAll('.task');
    for(var i=0; i<task.length; i++) {
     task[i].onclick = function() {
-        this.classList.toggle('completed');     // toggle is used to remove or add class at the time of event
+        this.classList.toggle('completed');     // Toggle is used to switch back and forth between different states or options.
     }
    }
 }
