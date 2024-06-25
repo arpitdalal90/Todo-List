@@ -1,0 +1,51 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(190, 190, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site {
+    border: 2px solid white;
+    padding: 3rem 4rem;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.searchBar {
+    font-size: large;
+}
+
+.addBtn {
+    font-size: large;
+}
+
+.tasks {
+    background-color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+}
+
